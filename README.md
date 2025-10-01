@@ -1,4 +1,6 @@
-![Project Logo](logo.png)
+<p align="center">
+  <img src="logo.png" alt="Project Logo" width="200"/>
+</p>
 
 # CodeSquad
 Team CodeSquad’s official repository for the AmBITion 2025 Hackathon.
