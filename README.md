@@ -1,3 +1,5 @@
+![Project Logo](logo.png)
+
 # CodeSquad
 Team CodeSquad’s official repository for the AmBITion 2025 Hackathon.
 
