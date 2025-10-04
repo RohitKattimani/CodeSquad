@@ -5,12 +5,12 @@
 # CodeSquad
 Team CodeSquad’s official repository for the AmBITion 2025 Hackathon.
 
-# Project Name
+# MedSafe
 
-Official repository for our project developed during **AmBITion Hackathon 2025**.
+Official repository for our project 'MedSafe' developed during **AmBITion Hackathon 2025**.
 
 ## About the Project
-A brief description of what our project does, the problem it solves, or the idea behind it.  
+MedSafe is an AI-powered tool designed to prevent harmful interactions between conventional medicines and Ayurvedic/herbal remedies. Many people take multiple medications or combine modern drugs with traditional treatments without knowing the potential risks, which can lead to serious health complications. Our system allows users to input any combination of conventional drugs and Ayurvedic/herbal medicines and instantly checks for known dangerous interactions. It highlights the severity, warns users of potential risks, and suggests safer alternatives when available. 
 
 ## Team
 - Rohit Kattimani  
@@ -19,14 +19,20 @@ A brief description of what our project does, the problem it solves, or the idea
 - Moomin Khan  
 
 ## Features
-- Feature 1  
-- Feature 2  
-- Feature 3  
+- Drug & Herb Interaction Checker – Input multiple conventional drugs and Ayurvedic/herbal remedies to instantly detect potentially harmful interactions.
+- Severity Assessment – Categorizes interactions into mild, moderate, or severe, helping users prioritize critical warnings.
+- Safer Alternatives & Recommendations – Suggests safer medication options or precautionary steps when risky combinations are detected.
+- User-Friendly Interface – Simple input via drug/herb names (brand or generic) with intuitive color-coded warnings.
+- Culturally Relevant – Supports integration of traditional Ayurvedic medicine alongside modern prescriptions for a holistic health approach. 
 
 ## Tech Stack
-- Language/Framework 1  
-- Language/Framework 2  
-- Tools/APIs  
+- Language/Framework: Python (for AI/ML and backend logic)
+- Framework/Library: Streamlit or Flask (for building the interactive demo/web app)
+- Tools/APIs:
+-> DrugBank / ChEMBL (for conventional drug data)
+-> PHYDGI / scientific literature datasets (for Ayurvedic/herbal interactions)
+-> Pandas / NumPy (data processing)
+-> Scikit-learn / XGBoost (for any ML-based prediction or risk scoring)  
 
 ## Setup Instructions
 ```bash
