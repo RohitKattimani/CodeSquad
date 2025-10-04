@@ -86,8 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Display the crucial **DISCLAIMER**
         const disclaimer = `
             🛑 **IMPORTANT SAFETY NOTICE!** 🛑
-            <p><strong>This webpage CANNOT and DOES NOT predict the safety of drug mixtures.</strong></p>
-            <p>Drug interactions are a serious medical matter. For accurate and safe advice regarding the composition of your medications, you must **consult a healthcare professional or pharmacist.**</p>
+
             <p>Your health and safety are paramount. **DO NOT rely on this simulation for medical decisions.**</p>
         `;
         safetyMessageDiv.innerHTML = disclaimer;
@@ -107,4 +106,5 @@ document.addEventListener('DOMContentLoaded', () => {
         popupContainer.classList.remove('hidden');
         drugNameSection.classList.add('hidden'); // Ensure this is hidden for a clean restart
     });
+
 });
