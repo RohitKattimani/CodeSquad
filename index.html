@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medication Input System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>💊 Medication Checker 💊</h1>
+        
+    </header>
+
+    <main>
+        <div id="popup-container">
+            <div id="popup-box" class="animated-in">
+                <h2>Quick Check!</h2>
+                <p>How many **drugs** are you currently taking?</p>
+                <input type="number" id="drug-count-input" min="0" value="0">
+                <button id="submit-count">Continue **>**</button>
+            </div>
+        </div>
+
+        <div id="drug-name-section" class="hidden">
+            <h2>Enter the Drug Names</h2>
+            <form id="drug-name-form">
+                </form>
+            <button id="check-safety-btn">Simulate Check **>**</button>
+        </div>
+
+        <div id="result-section" class="hidden">
+            <h2>Your Composition Analysis</h2>
+            <div id="safety-message">
+                </div>
+            <button id="start-over-btn">Start Over</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
