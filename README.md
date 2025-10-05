@@ -42,7 +42,7 @@ git clone https://github.com/RohitKattimani/CodeSquad.git
 # Navigate into the directory
 cd CodeSquad
 
-# Prepare yoru Dataset
+# Prepare your Dataset
 Either download selected datasets from my Kaggle(https://www.kaggle.com/rokacoding/datasets) or directly download the dataset from HODDI drug-drug action dataset
 
 #Train the model
