@@ -19,11 +19,10 @@ MedSafe is an AI-powered tool designed to prevent harmful interactions between c
 - Moomin Khan  
 
 ## Features
-- Drug & Herb Interaction Checker – Input multiple conventional drugs and Ayurvedic/herbal remedies to instantly detect potentially harmful interactions.
+- Drug & Herb Interaction Checker – Input multiple conventional drugs and Ayurvedic/herbal remedies to instantly detect potentially harmful interactions. (Can be expanded to later using IMPPAT dataset)
 - Severity Assessment – Categorizes interactions into mild, moderate, or severe, helping users prioritize critical warnings.
-- Safer Alternatives & Recommendations – Suggests safer medication options or precautionary steps when risky combinations are detected.
+- Safer Alternatives & Recommendations – Suggests safer medication options or precautionary steps when risky combinations are detected. (To be worked on)
 - User-Friendly Interface – Simple input via drug/herb names (brand or generic) with intuitive color-coded warnings.
-- Culturally Relevant – Supports integration of traditional Ayurvedic medicine alongside modern prescriptions for a holistic health approach. 
 
 ## Tech Stack
 - Language/Framework: Python (for AI/ML and backend logic)
