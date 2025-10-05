@@ -5,7 +5,6 @@ import pandas as pd
 import joblib
 import os
 
-"""Load the model and datasets"""
 
 # Loading trained model and mlb
 model_path = 'modeldata/model.pkl'
@@ -129,8 +128,9 @@ with gr.Blocks() as app:
 
     gr.Markdown("""
     <div style="margin-top: 30px; text-align: center; border-top: 1px solid #ccc; padding-top: 20px;">
-        <p>📧 Developed by Rohit Kattimani (<a href="https://github.com/RohitKattimani/">GitHub</a>)</p>
+        <p>📧 Developed by Rohit Kattimani and CodeSquad Team (<a href="https://github.com/RohitKattimani/">GitHub</a>)</p>
     </div>
     """)
 
 app.launch(share=True)
+
