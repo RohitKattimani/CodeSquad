@@ -27,7 +27,7 @@ MedSafe is an AI-powered tool designed to prevent harmful interactions between c
 
 ## Tech Stack
 - Language/Framework: Python (for AI/ML and backend logic)
-- Framework/Library: Streamlit or Flask (for building the interactive demo/web app)
+- Framework/Library: Gradio for interactive web app
 - Tools/APIs:
 -> DrugBank / ChEMBL (for conventional drug data)
 -> PHYDGI / scientific literature datasets (for Ayurvedic/herbal interactions)
