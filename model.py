@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_auc_sco
 
 """Load datasets"""
 
-# Load the positive and negative drug interactions datasets from HODDI (I have added the url of repository in dataset folder)
+# Loaded the positive and negative drug interactions datasets from HODDI (I have added the url of repository in dataset folder)
 neg = 'HODDI/dataset/HODDI_v1/HODDI/Merged_Dataset/neg.csv' 
 pos = 'HODDI/dataset/HODDI_v1/HODDI/Merged_Dataset/pos.csv'
 
@@ -133,6 +133,7 @@ print("Training Confusion Matrix:\n", confusion_matrix(Y_train, Y_train_pred))
 # Save the trained model
 joblib.dump(model, 'C:/Users/Rohit/TestProject/modeldata/model.pkl')
 joblib.dump(mlb, 'C:/Users/Rohit/TestProject/modeldata/mlb.pkl')
+
 
 
 
