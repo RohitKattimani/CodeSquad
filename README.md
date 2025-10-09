@@ -10,7 +10,7 @@ Team CodeSquad’s official repository for the AmBITion 2025 Hackathon.
 Official repository for our project 'MedSafe' developed during **AmBITion Hackathon 2025**.
 
 ## About the Project
-MedSafe is an AI-powered tool designed to prevent harmful interactions between conventional medicines and Ayurvedic/herbal remedies. Many people take multiple medications or combine modern drugs with traditional treatments without knowing the potential risks, which can lead to serious health complications. Our system allows users to input any combination of conventional drugs and Ayurvedic/herbal medicines and instantly checks for known dangerous interactions. It highlights the severity, warns users of potential risks, and suggests safer alternatives when available. 
+MedSafe is an AI-powered tool designed to prevent harmful interactions between conventional medicines. Many people take multiple medications or combine modern drugs with traditional treatments without knowing the potential risks, which can lead to serious health complications. Our system allows users to input any combination of conventional drug and instantly checks for known dangerous interactions. It highlights the severity, warns users of potential risks, and suggests safer alternatives when available. 
 
 ## Team
 - Rohit Kattimani  
